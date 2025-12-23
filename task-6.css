@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>user-signup</title>
-    <style>
-        body{
+ body{
             background-color: #e6fffa;
             display: flex;
             justify-content: center;
@@ -109,63 +102,7 @@
             color: #009c88;
         }
 
-    </style>
-</head>
-<body>
-    <div class="sign-up">
-        <h1>Sign-Up</h1>
-
-        <form>
-            
-            <div class="fields">
-                <label for="full-name">Full Name</label>
-                <center><input type="text" id="full-name" placeholder="Full Name"></center>
-            </div>
-            
-            <div class="fields">
-                <label for="user-name">User Name</label>
-                <center><input type="text" id="user-name" placeholder="Username"></center>
-            </div>
-            
-            <div class="fields">
-                <label for="email">Email Address</label>
-                <center><input type="email" id="email" placeholder="Email"></center>
-            </div>
-            
-            <div class="fields">
-                <label for="phonenumber">Mobile Number</label>
-               <center><input type="phonenumber" id="phonenumber" placeholder="Number"></center> 
-            
-            </div>
-
-            <div class="fields">
-                <label for="user-type">User Type</label>
-                <center><select name="usertype" id="user-type" required>
-                    <option value="">Select User</option>
-                    <option value="admin">Admin</option>
-                    <option value="student">Student</option>
-                    <option value="teacher">Teacher</option>
-                </select>
-                </center>
-            </div>
-            
-            <div class="fields">
-                <label for="password">Password</label>
-                <center><input type="password" placeholder="Password" required></center>
-            </div>
-            
-            <div class="fields">
-                <label for="confirm-password">Confirm-Password</label>
-               <center><input type="password" placeholder="Confirm-Password" required> </center> 
-            </div>
-
-            <center><button type="submit" class="button">Register</button></center>
-
-            <div class="log-in">
-                Already Have an account?<a href="login.html">Log-in</a>
-            </div>
-        </form>
-    </div>
-    <script src="task-six.js"></script>
-</body>
-</html>
+        /* Error */
+        .error{
+            color: red;
+        }
